@@ -1,0 +1,183 @@
+@media (max-width: 970px) {
+    .nav-menu{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    .Home{
+        grid-template-columns: 1fr;
+        height: 100%;
+        transition: .3s;
+    }
+
+    .Home-text{
+        padding-top: 100px;
+        align-items: center;
+        transition: .3s;
+    }
+
+    .Home-img img{
+        padding-top: 100px;
+        transition: .3s;
+    }
+
+    .Products-text{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .Home-text h1{
+        font-size: 56px;
+        transition: .3s;
+    }
+
+    .Home-text h4{
+        font-size: 18px;
+        transition: .3s;
+    }
+
+    .Home-text p{
+        font-size: 15px;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .Home{
+        width: 100%;
+    }
+
+    .Home-text h1{
+        font-size: 40px;
+        line-height: 50px;
+        transition: .3s;
+    }
+
+    .Home-text p{
+        font-size: 15px;
+    }
+
+    .Products{
+        align-items: center;
+    }
+}
+
+@media (max-width: 970px) {
+    .About-img img{
+        width: 480px;
+    }
+}
+
+@media (max-width: 789px) {
+    .About-img img{
+        width: 400px;
+    }
+    .About-text p{
+        font-size: 14px;
+    }
+    .btn{
+        background: #FF6D46;
+        color: #fff;
+        padding: 8px 30px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .Home-img img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) { 
+    .Home{
+        width: 100vw;
+    }
+
+    .About-img img{
+        width: 250px;
+    }
+
+    .About p{
+        font-size: 12px;
+    }
+
+    .btn{
+        background: #FF6D46;
+        color: #fff;
+        padding: 6px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 250px) {
+
+    .Home-img img{
+        width: 220px;
+        padding-top: 10px;
+    }
+
+    .About-img img{
+        width: 100px;
+    }
+
+    .About p{
+        font-size: 10px;
+    }
+
+    .btn{
+        background: #FF6D46;
+        color: #fff;
+        padding: 6px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    .Products-box{
+        width: 200px;
+    }
+    
+    .customer-box{
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .Home-img img{
+        width: 300px;
+    }
+
+    .About-img img{
+        width: 200px;
+    }
+    
+    .About-text h1{
+        font-size: 20px;
+    }
+
+    .About-text p{
+        font-size: 10px;
+    }
+
+    .btn{
+        background: #FF6D46;
+        color: #fff;
+        padding: 6px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+   .Customer-container{
+    align-items: center;
+   }
+}
